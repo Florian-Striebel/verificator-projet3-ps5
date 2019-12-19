@@ -61,18 +61,19 @@ public class Verificator {
 			Position vehiclePos= new Position(0,0);
 			i++;
 			currentTime=0;
+			System.err.println("current 0");
 			vehiclePos=new Position(0,0);
 			for(int j=i;j<PosLastCourse;j++) {
 				nbOfRide++;
-				System.out.println(values.get(j)+"--"+currentTime);
-				if(arrivalTime(rides.get(values.get(j)), currentTime, vehiclePos)<rides.get(values.get(j)).getLastStartTime()){
+				System.out.println(values.get(j)+"--"+currentTime+"--"+arrivalTime(rides.get(values.get(j)), currentTime, vehiclePos));
+				if(arrivalTime(rides.get(values.get(j)), currentTime, vehiclePos)<MAX_STEP){
 					calculatedScore+=calculScore(rides.get(values.get(j)),currentTime,vehiclePos);
 					//System.out.println("b"+(currentTime)+"---"+rides.get(values.get(j)).getStartPos()+"--"+rides.get(values.get(j)).getEndPos());
 					currentTime+=arrivalTime(rides.get(values.get(j)), currentTime, vehiclePos);
 					vehiclePos=rides.get(values.get(j)).getEndPos();
 					//System.out.println("b"+currentTime);
 				}else {
-					System.out.println(vehiclePos+"["+currentTime+"]"+"("+rides.get(values.get(j)).getId()+")"+rides.get(values.get(j)));
+					//System.out.println(vehiclePos+"["+currentTime+"]"+"("+rides.get(values.get(j)).getId()+")"+rides.get(values.get(j)));
 					//System.out.println("error8");
 				}
 				i++;
