@@ -23,7 +23,6 @@ public class VerificatorMain {
 				list2.add(line);
 			}
 		}
-
 		Verificator verif=new Verificator(list1, list2);
 		verif.verification();
 		

@@ -70,7 +70,7 @@ public class Ride {
     
     @Override
     public String toString() {
-		return this.earlyStartTime+"-"+this.lastStartTime+"||"+this.startPos+"-"+this.endPos;
+		return this.startPos+"-"+this.endPos+"||"+this.earlyStartTime+"-"+this.lastStartTime;
     	
     }
 }
