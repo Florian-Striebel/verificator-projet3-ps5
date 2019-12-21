@@ -7,9 +7,9 @@ placer vous dans le répertoire /ps5-projet3-1920-stormbreakers
 ouvrir un bash puis executé les commandes suivantes bash :
 
 
-  '$ cd ../'
-  '$ tar xf verificator-projet3-ps5.tgz'
-  '$ cd verificator-projet3-ps5.tgz/'
-  '$ ./result_of_5_input'
+ $ cd ../
+ $ tar xf verificator-projet3-ps5.tgz
+ $ cd verificator-projet3-ps5.tgz/
+ $ ./result_of_5_input
  
 
