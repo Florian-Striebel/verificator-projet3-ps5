@@ -8,13 +8,13 @@
 [INFO] Building PS5-Projet3-1920-StormBreakers 0.1-SNAPSHOT
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
-[INFO] --- exec-maven-plugin:1.6.0:java (default-cli) @ PS5-Projet3-1920-StormBreakers ---
+[INFO] --- exec-maven-plugin:1.6.0:java (run) @ PS5-Projet3-1920-StormBreakers ---
 10
 1 0 
 2 2 1 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  1.158 s
-[INFO] Finished at: 2019-12-19T22:15:02+01:00
+[INFO] Total time:  0.690 s
+[INFO] Finished at: 2019-12-20T11:51:20+01:00
 [INFO] ------------------------------------------------------------------------
